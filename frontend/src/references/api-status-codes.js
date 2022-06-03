@@ -1,0 +1,15 @@
+export const SUCCESS = 0;
+export const USERNAME_EXISTS = -101;
+export const USER_NOT_FOUND = -102;
+export const GENERIC_FAILURE = -500;
+export const EXCEPTION_OCCURED = -501;
+export const INVALID_MODEL_STATE = -502;
+
+export default {
+  SUCCESS,
+  USERNAME_EXISTS,
+  USER_NOT_FOUND,
+  GENERIC_FAILURE,
+  EXCEPTION_OCCURED,
+  INVALID_MODEL_STATE
+}

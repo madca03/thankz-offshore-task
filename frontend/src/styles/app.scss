@@ -1,0 +1,13 @@
+input[type="text"] {
+  &[error="true"] {
+    border: 1px solid red;
+  }
+}
+
+label[error] {
+  color: rgb(245, 0, 0);
+  font-size: 13px;
+}
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
